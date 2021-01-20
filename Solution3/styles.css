@@ -1,0 +1,136 @@
+html{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+li, .footer p{
+    color: rgb(128, 128, 128);
+}
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1, h2{
+    font-family: 'Abril Fatface', serif;
+    color: rgb(30, 30, 20);
+}
+section{
+    height: 120px;
+}
+li, .footer p{
+    color: rgb(128, 128, 128);
+}
+.header{
+    background: url(image/image.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+
+}
+.title{
+    width: 20%;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 292px;
+    height: 20%;
+    margin-left: 86px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+}
+.title h1{
+    border-bottom: 1px solid rgb(255,255,255);
+    padding: 10px;
+    font: 900;
+}
+.details{
+    width: 20%;
+  margin: 0 62%;
+    color: rgb(255,255,255);
+    background-image: linear-gradient(to right top, #a09691, #aba2a1, #b4aeb0, #bdbbbd, #c8c8c8);
+padding: 20px;
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+}
+.main main, .footer footer{
+    background: rgb(240,240,240);
+}
+main h2{
+    margin-left: 40px;
+}
+.main{
+   
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    line-height: 1.5;
+}
+.main ul li{
+    text-align: none;
+    list-style: none;
+}
+.main ul li i{
+    margin-right: 5px;
+}
+.aside aside{
+    float: right;
+    background: rgb(186,177,173);
+    padding: 30px; 
+    padding: 35px;
+    padding-top: 113px;
+}
+aside{
+    display: block;
+    margin: auto;
+}
+h2{
+    font-weight: bold;
+    text-align: left;
+}
+.bold, i{
+    font-weight: bold;
+    color:rgb(30, 30, 20);
+}
+.italic{
+    font-weight: bold;
+    font-style: italic;
+}
+.white{
+    color: rgb(255,255,255);
+    font-size: 30px;
+}
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    
+}
+.footer p{
+    padding-left: 20px;
+    flex-basis: 20%;
+    
+}
+footer h2{
+    border-bottom: 1px solid rgb(30, 30, 20);
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+::-webkit-input-placeholder{
+    color: rgb(255,255,255);
+}
+.button #email, .button #submit{
+ border: none;
+ outline: none;
+padding: 10px;
+margin-bottom: 20px;
+margin-right: 10px;
+}
+.button #email{
+    background: rgb(186,177,173);
+}
+.button #submit{
+    background: rgb(103,120,77);
+    color: rgb(255,255,255);
+}

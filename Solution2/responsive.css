@@ -1,0 +1,93 @@
+@media (max-width: 1024px){
+    html{
+        margin: 0;
+    }
+    .site-header{
+        padding: 0;
+    }
+    .entry-content, .site-information{
+        padding: 10px;
+    }
+    .site-logos-container{
+        display: flex;
+    }
+    .site-logos-container div{
+        flex:0 0 5%;  
+        margin:0 auto;
+    }
+
+}
+
+
+
+
+@media (max-width:768px){
+.site-header{
+        padding: 0;
+        width: 93%;
+        margin: 0 auto;
+    }
+.site-navigation ul{
+        display: none;
+    }
+.site-logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.site-logos-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+
+}
+.site-information-text{
+   margin: 0 auto;
+}
+.site-information-image{
+    display: none;
+}
+.entry-header{
+    text-align: center;
+}
+.entry-header-description{
+margin-bottom: 20px;
+}
+.entry-header-title{
+margin-top:20px;
+}
+.site-information-text, .entry-subtitle, .entry-title, .entry-description, .button .button-primary{
+    text-align: center;
+}
+.site-form{
+    width: 100%;
+}
+.site-posts{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 40%;
+   margin: 10px auto;
+    
+}
+.site-posts .site-post{
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+.site-form form > p{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+form input{
+   width: 100%;
+}
+form .button-primary{
+    margin: 20px auto;
+}
+.site-footer{
+    display: inline-block;
+    width: 93%;
+    margin: 0 auto;
+    margin-left: 26px;
+}
+}
